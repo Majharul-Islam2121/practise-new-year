@@ -1,6 +1,8 @@
 body{font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;}
-
+img{background-size: 100%;
+width: 1250px;
+height: 800px;}
 .banner{
     display: flex;
     justify-content: space-between;
@@ -30,3 +32,67 @@ margin-right: 100px;
         border-radius: 5px;
         background: #F15B22;
     border: none;}
+
+    .person-img{width: 400px;
+        height: 500px;
+    margin-top: 340px;
+    }
+    .person{
+        display: flex;
+        justify-content: space-around;
+    }
+    .person-p{
+        margin-top: 440px;
+    }
+    .person-desc{
+        color: var(--Dark-02, #444343);
+padding: 20px;
+            font-family: Work Sans;
+            font-size: 18px;
+            font-weight: 400;
+            /* 162.5% */
+    }
+    li{ color: var(--Dark-02, #444343);
+    padding: 8px;}
+    .design{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    .icon-png{
+        width: 70px;
+        height: 70px;
+    }
+    p{color: var(--Dark-03, #737272);
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;}
+
+  .blog{
+    background-image: url("../images/watch.png");
+   height: 300px;
+   width: 1100px;
+   margin-left: 100px;
+   margin-top: 50px;
+   
+  }
+  .blog-h2{padding: 90px;
+    color: #FFF;
+margin-top: 30px;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  button{
+    color: #F15B22;
+text-align: center;
+font-size: 18px;
+margin-left: 90px;
+margin-bottom: 160px;
+font-weight: 600;
+line-height: normal;
+  }
