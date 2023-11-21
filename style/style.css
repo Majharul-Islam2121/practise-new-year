@@ -35,14 +35,14 @@ margin-right: 100px;
 
     .person-img{width: 400px;
         height: 500px;
-    margin-top: 340px;
+    margin-top: 140px;
     }
     .person{
         display: flex;
         justify-content: space-around;
     }
     .person-p{
-        margin-top: 440px;
+        margin-top: 250px;
     }
     .person-desc{
         color: var(--Dark-02, #444343);
